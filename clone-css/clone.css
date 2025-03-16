@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Giga", serif;
+}
+main{
+    position: absolute;
+}
+img{
+   margin-top: 67px; 
+   margin-left: 96px;
+   display: inline-block;
+}
+header{
+    margin-top: 47px;
+    margin-left: 47px;
+}
+.link-top{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 12px;
+    margin-left: 23px;
+    cursor: pointer;
+    color: rgb(1, 74, 49); 
+    text-align: center;
+}
+.link-top:nth-child(2):active{
+    color:#1a0880;
+    opacity: .8;
+}
+h1{
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 12px;
+    color: rgb(42, 1, 81);
+}
+h2{  
+    font-weight: 600;
+    color: blueviolet;
+    margin-top: 14px;
+}
+p{
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 33px;
+    color: rgb(65, 52, 52);
+}
+.container{
+    width: 498px;
+    display: inline-block;
+    position: absolute;
+    margin: 380px 0 0 99px;
+}
+.botao-explore{
+    margin-top: 19px;
+    margin-left: 12px;
+    font-size: 19px;
+    font-weight: 700;
+    height: 58px;
+    width: 170px;
+    background-color: #01423d;
+    border-radius: 27px;
+    cursor: pointer;
+}
+.botao-explore:hover{
+background-color: #095952;
+}
+.botao-explore:active{
+ opacity: .9;
+}
+@media screen and (max-width: 900px){
+    
+}
+
+
+  
